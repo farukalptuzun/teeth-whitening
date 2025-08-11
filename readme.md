@@ -1,6 +1,5 @@
-python whiten_teeth.py --input in.jpg --output out.jpg --strength 0.9 --mask-grow 5 --save-mask 
 
-# 🦷 Diş Beyazlatma Script'i (MediaPipe FaceMesh Tabanlı)
+# 🦷 Diş Beyazlatma Script'i (MediaPipe FaceMesh Tabanlı) (BASİT)
 
 Bu script, verilen bir yüz fotoğrafındaki **ağız bölgesini tespit eder**, dişleri maskeleyip **LAB renk uzayında beyazlatma işlemi** uygular.  
 **MediaPipe FaceMesh** ile diş bölgesi tespit edilir, dudak ve diş eti tonları hariç tutulur.
