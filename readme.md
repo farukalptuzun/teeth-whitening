@@ -54,7 +54,9 @@ Eğer maske dişlerin tamamını kapsamıyorsa:
 --gum-a-cut değerini 145–150 aralığına düşür
 Aşırı beyaz görünüyorsa --strength değerini düşür
 
-Kullanılacak asıl kod python whiten_teeth.py --input in.jpg --output out.jpg --strength 0.9 --mask-grow 5 --save-mask  bunun üsütnden gerekli düzenlemeler yapılarak 
+## 🖼 Örnek Görseller
+
+Aşağıdaki görseller `python whiten_teeth.py --input in.jpg --output out.jpg --strength 0.9 --mask-grow 5 --save-mask` komutu ile üretilmiştir.
 
 | Girdi (Input) | Maske (Mask) | Çıktı (Output) |
 |---------------|--------------|----------------|
@@ -63,6 +65,7 @@ Kullanılacak asıl kod python whiten_teeth.py --input in.jpg --output out.jpg -
 | Girdi (Input) | Maske (Mask) | Çıktı (Output) |
 |---------------|--------------|----------------|
 | ![input](examples/in1.jpg) | ![mask](examples/out_mask1.png) | ![output](examples/out1.jpg) |
+
 
 
 MIT License
